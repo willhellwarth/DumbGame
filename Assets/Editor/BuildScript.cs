@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-public class Builder : ScriptableObject {
+public class BuildScript : ScriptableObject {
         static string[] SCENES = FindEnabledEditorScenes();
 
 	// Use real app name here
